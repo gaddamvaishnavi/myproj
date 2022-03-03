@@ -1,10 +1,16 @@
 package DateTimeService;
 
+import java.util.Date;
+
 public interface IdateService{
 	
 	String getCurrentTime();
 	
-	void getDateTime();
+	Date  getDateTime();
+	
+	String getItc();
+	
+	String getCST();
 	
 	
 
